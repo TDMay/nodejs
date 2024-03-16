@@ -3,7 +3,7 @@
   "type": "module",
   "version": "1.0.0",
   "description": "A minimal Node.js web application.",
-  "main": "index.js",
+  "main": "index.cjs",
   "author": "alphasec",
   "license": "MIT",
    "dependencies": {
@@ -19,6 +19,6 @@
     "whatsapp-web.js": "^1.23.0"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.cjs"
   }
 }
